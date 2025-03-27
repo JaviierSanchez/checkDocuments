@@ -2,9 +2,9 @@ import os
 import pandas as pd
 
 # Configuración: Rutas de archivos y carpetas
-excel_path = "Ruta_Absoluta_Excel"
-folder_path = "Ruta_Absoluta_Carpeta_Documentos"
-output_folder_base = "Ruta_Absoluta_Donde_Se_Guardan_Resultados" #Ruta Base de la carpeta de resultados
+excel_path = "C:/ruta/a/Documentos.xlsx"
+folder_path = "C:/ruta/a/Documentos_A_Verificar"
+output_folder_base = "C:/ruta/a/Resultados" #Ruta Base de la carpeta de resultados
 
 print("Cargando archivo Excel...")
 # Cargar la hoja específica del Excel (índice 9 -> la décima hoja)
